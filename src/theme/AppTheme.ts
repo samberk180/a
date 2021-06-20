@@ -1,4 +1,4 @@
-export default {
+const Theme: Record<string, any> = {
   light: {
     background: '#FFFFFF',
     headerTintColor: '#3E3E3E',
@@ -58,3 +58,4 @@ export default {
     alertWarnBorderColor: '#D9A03D',
   },
 };
+export default Theme;
