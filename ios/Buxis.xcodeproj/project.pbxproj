@@ -3,17 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* BuxisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BuxisTests.m */; };
+		076D830B28CA1962E182F7A0 /* libPods-Buxis-BuxisTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E78C083634531CAE28EB2728 /* libPods-Buxis-BuxisTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		465436E0A2C27CB13AEF39EE /* libPods-Buxis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E9D37C5D6EE4FE1F0819CB /* libPods-Buxis.a */; };
+		59FCADBB9F264506B2061159 /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 99CE2622CD88447D8AAF54D9 /* AvenirNextLTPro-Regular.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9602FC7EBB378B99B251564F /* libPods-Buxis-BuxisTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF61A72660E9D8B72187F88 /* libPods-Buxis-BuxisTests.a */; };
+		A2DBC3FC9A9C4CED84ABB8D4 /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C3633CD8C1D4D71876AB96D /* AvenirNextLTPro-Bold.otf */; };
+		A8F4AAD9267E7D0200BB42D4 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4AAD8267E7D0200BB42D4 /* File.swift */; };
+		FF5F53F34DE59214008E4A3A /* libPods-Buxis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED263AEEE6E21E27983EFA02 /* libPods-Buxis.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +33,24 @@
 		00E356EE1AD99517003FC87E /* BuxisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuxisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* BuxisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuxisTests.m; sourceTree = "<group>"; };
+		0AF275E5E689E455A8E30492 /* Pods-Buxis-BuxisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buxis-BuxisTests.release.xcconfig"; path = "Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Buxis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buxis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Buxis/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Buxis/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Buxis/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Buxis/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Buxis/main.m; sourceTree = "<group>"; };
-		4E9672DCDF8BE7581F3866A4 /* Pods-Buxis-BuxisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buxis-BuxisTests.debug.xcconfig"; path = "Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests.debug.xcconfig"; sourceTree = "<group>"; };
-		68E9D37C5D6EE4FE1F0819CB /* libPods-Buxis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Buxis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EF61A72660E9D8B72187F88 /* libPods-Buxis-BuxisTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Buxis-BuxisTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3633CD8C1D4D71876AB96D /* AvenirNextLTPro-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-Bold.otf"; path = "../assets/fonts/AvenirNextLTPro-Bold.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Buxis/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D21497D3135EFD6A9F641F07 /* Pods-Buxis-BuxisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buxis-BuxisTests.release.xcconfig"; path = "Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests.release.xcconfig"; sourceTree = "<group>"; };
-		DCCA430F2C2C2B6F0592218C /* Pods-Buxis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buxis.release.xcconfig"; path = "Target Support Files/Pods-Buxis/Pods-Buxis.release.xcconfig"; sourceTree = "<group>"; };
+		87ABEE6B513754AD86FCD736 /* Pods-Buxis-BuxisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buxis-BuxisTests.debug.xcconfig"; path = "Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99CE2622CD88447D8AAF54D9 /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-Regular.otf"; path = "../assets/fonts/AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		A8598325E3889E1DA33BA2EF /* Pods-Buxis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buxis.debug.xcconfig"; path = "Target Support Files/Pods-Buxis/Pods-Buxis.debug.xcconfig"; sourceTree = "<group>"; };
+		A8F4AAD7267E7D0200BB42D4 /* Buxis-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Buxis-Bridging-Header.h"; sourceTree = "<group>"; };
+		A8F4AAD8267E7D0200BB42D4 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E78C083634531CAE28EB2728 /* libPods-Buxis-BuxisTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Buxis-BuxisTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED263AEEE6E21E27983EFA02 /* libPods-Buxis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Buxis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F612DEE496641458F023BCEE /* Pods-Buxis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buxis.debug.xcconfig"; path = "Target Support Files/Pods-Buxis/Pods-Buxis.debug.xcconfig"; sourceTree = "<group>"; };
+		FA4850E372A42334AB5FB280 /* Pods-Buxis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buxis.release.xcconfig"; path = "Target Support Files/Pods-Buxis/Pods-Buxis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9602FC7EBB378B99B251564F /* libPods-Buxis-BuxisTests.a in Frameworks */,
+				076D830B28CA1962E182F7A0 /* libPods-Buxis-BuxisTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465436E0A2C27CB13AEF39EE /* libPods-Buxis.a in Frameworks */,
+				FF5F53F34DE59214008E4A3A /* libPods-Buxis.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				68E9D37C5D6EE4FE1F0819CB /* libPods-Buxis.a */,
-				6EF61A72660E9D8B72187F88 /* libPods-Buxis-BuxisTests.a */,
+				ED263AEEE6E21E27983EFA02 /* libPods-Buxis.a */,
+				E78C083634531CAE28EB2728 /* libPods-Buxis-BuxisTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,12 +123,15 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A8F4AAD8267E7D0200BB42D4 /* File.swift */,
 				13B07FAE1A68108700A75B9A /* Buxis */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* BuxisTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				9D21DC1DE1B022F9BAEC2FF1 /* Pods */,
+				A8F4AAD7267E7D0200BB42D4 /* Buxis-Bridging-Header.h */,
+				C477E44C62F14BBFA6635A11 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,12 +150,22 @@
 		9D21DC1DE1B022F9BAEC2FF1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F612DEE496641458F023BCEE /* Pods-Buxis.debug.xcconfig */,
-				DCCA430F2C2C2B6F0592218C /* Pods-Buxis.release.xcconfig */,
-				4E9672DCDF8BE7581F3866A4 /* Pods-Buxis-BuxisTests.debug.xcconfig */,
-				D21497D3135EFD6A9F641F07 /* Pods-Buxis-BuxisTests.release.xcconfig */,
+				A8598325E3889E1DA33BA2EF /* Pods-Buxis.debug.xcconfig */,
+				FA4850E372A42334AB5FB280 /* Pods-Buxis.release.xcconfig */,
+				87ABEE6B513754AD86FCD736 /* Pods-Buxis-BuxisTests.debug.xcconfig */,
+				0AF275E5E689E455A8E30492 /* Pods-Buxis-BuxisTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C477E44C62F14BBFA6635A11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C3633CD8C1D4D71876AB96D /* AvenirNextLTPro-Bold.otf */,
+				99CE2622CD88447D8AAF54D9 /* AvenirNextLTPro-Regular.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,12 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BuxisTests" */;
 			buildPhases = (
-				3F794DBDB73E54515B8C8104 /* [CP] Check Pods Manifest.lock */,
+				C9EEA48213DDDE6147196AB5 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				32CBC5EF29005EF994F2B1BB /* [CP] Embed Pods Frameworks */,
-				51C931E3D9BA2ADFBE83A16C /* [CP] Copy Pods Resources */,
+				549C4D66942325AEA4C8AFD1 /* [CP] Embed Pods Frameworks */,
+				056A4ED87545120DC9457C9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +196,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Buxis" */;
 			buildPhases = (
-				538C4128D81498CE813BA65F /* [CP] Check Pods Manifest.lock */,
+				8C9FCBDDEAF18BB11BCD41CB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				D42CFACB2933C47A21640058 /* [CP] Embed Pods Frameworks */,
-				34B525AC587079E594A01A6F /* [CP] Copy Pods Resources */,
+				CBAF870C3806D9B8A0A1D031 /* [CP] Embed Pods Frameworks */,
+				2E693A8539B8102F3DBEE65A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,12 +227,12 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Buxis" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -244,6 +264,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A2DBC3FC9A9C4CED84ABB8D4 /* AvenirNextLTPro-Bold.otf in Resources */,
+				59FCADBB9F264506B2061159 /* AvenirNextLTPro-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,63 +286,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		32CBC5EF29005EF994F2B1BB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		34B525AC587079E594A01A6F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Buxis/Pods-Buxis-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Buxis/Pods-Buxis-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Buxis/Pods-Buxis-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F794DBDB73E54515B8C8104 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Buxis-BuxisTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		51C931E3D9BA2ADFBE83A16C /* [CP] Copy Pods Resources */ = {
+		056A4ED87545120DC9457C9C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,7 +303,41 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		538C4128D81498CE813BA65F /* [CP] Check Pods Manifest.lock */ = {
+		2E693A8539B8102F3DBEE65A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buxis/Pods-Buxis-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buxis/Pods-Buxis-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Buxis/Pods-Buxis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		549C4D66942325AEA4C8AFD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Buxis-BuxisTests/Pods-Buxis-BuxisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C9FCBDDEAF18BB11BCD41CB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,7 +359,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D42CFACB2933C47A21640058 /* [CP] Embed Pods Frameworks */ = {
+		C9EEA48213DDDE6147196AB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Buxis-BuxisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAF870C3806D9B8A0A1D031 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				A8F4AAD9267E7D0200BB42D4 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,8 +451,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E9672DCDF8BE7581F3866A4 /* Pods-Buxis-BuxisTests.debug.xcconfig */;
+			baseConfigurationReference = 87ABEE6B513754AD86FCD736 /* Pods-Buxis-BuxisTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -455,8 +479,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D21497D3135EFD6A9F641F07 /* Pods-Buxis-BuxisTests.release.xcconfig */;
+			baseConfigurationReference = 0AF275E5E689E455A8E30492 /* Pods-Buxis-BuxisTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = BuxisTests/Info.plist;
@@ -479,7 +504,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F612DEE496641458F023BCEE /* Pods-Buxis.debug.xcconfig */;
+			baseConfigurationReference = A8598325E3889E1DA33BA2EF /* Pods-Buxis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -497,6 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Buxis;
+				SWIFT_OBJC_BRIDGING_HEADER = "Buxis-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -505,7 +531,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCCA430F2C2C2B6F0592218C /* Pods-Buxis.release.xcconfig */;
+			baseConfigurationReference = FA4850E372A42334AB5FB280 /* Pods-Buxis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -522,6 +548,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Buxis;
+				SWIFT_OBJC_BRIDGING_HEADER = "Buxis-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -560,7 +587,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -576,7 +603,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -625,7 +652,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -634,7 +661,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -646,6 +673,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
